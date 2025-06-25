@@ -38,4 +38,5 @@ Measure-Command {
     }
 
     [System.IO.File]::WriteAllLines($bigFileName, $logLines)
+    Write-Output "PLC log file generated."
 }
